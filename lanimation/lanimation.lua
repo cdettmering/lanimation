@@ -30,9 +30,9 @@ LANIMATION_PATH = LANIMATION_PATH or 'lanimation/'
 -- Return the library packed in a table
 
 
-chanimation =  { SpriteSheet = require(LANIMATION_PATH .. 'SpriteSheet'), 
+lanimation =  { SpriteSheet = require(LANIMATION_PATH .. 'SpriteSheet'), 
                  Animation = require(LANIMATION_PATH .. 'Animation'),
                  AnimationPath = require(LANIMATION_PATH .. 'AnimationPath'), 
                  interpolation = require(LANIMATION_PATH .. 'interpolation') }
 
-return chanimation
+return lanimation
